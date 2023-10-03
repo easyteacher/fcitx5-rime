@@ -403,7 +403,7 @@ void RimeEngine::notify(const std::string &messageType,
             }
         } else if (messageValue == "failure") {
             message = _("Rime has encountered an error. "
-                        "See /tmp/rime.fcitx.ERROR for details.");
+                        "See /tmp/rime.fcitx-rime.ERROR for details.");
         }
     } else if (messageType == "option") {
         icon = "fcitx-rime";
